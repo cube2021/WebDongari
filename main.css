@@ -1,14 +1,10 @@
-body {
-    margin: 0;
-    font-family: 'goorm-sans-code', sans-serif;
-}
 
 .main-banner {
-    padding: 50px;
+    padding: 100px;
     background-color: darkblue;
     color: white;
-    text-align: center;
     margin-top: 30px;
+    text-align: center;
 }
 
 .credit {
@@ -35,16 +31,10 @@ body {
     font-weight: 800;
     font-style: normal;
 }
-
 .main-button {
     width: 13.5%;
     border: none;
     background-color: white;
-    transition: background-color 0.3s;
-}
-
-.main-button:hover {
-    background-color: #f0f0f0;
 }
 
 .selectbtn {
@@ -57,15 +47,4 @@ body {
 
 .top-corner {
     display: inline;
-}
-
-@media (max-width: 768px) {
-    .main-button {
-        width: 45%;
-        margin: 5px 0; 
-    }
-}
-.credit {
-    padding: 20px;
-
 }

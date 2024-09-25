@@ -10,13 +10,13 @@
             rel="stylesheet"
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
             crossorigin="anonymous" />
-        <title>맛집리뷰</title>
+        <title>식당 소개</title>
     </head>
     <body style="background-color: #e3e3e2">
-        <nav class="top-corner" style= "background-color: white;">
-            <a class="navbar-brand" href="../index.html">
-                <img style="margin-top: 20px; margin-bottom: 20px; margin-left: 13%" src="img/logo.jpg" width="80px;" height="80px" />
-                <span style="font-family: goorm-sans-code; font-size: 30px; vertical-align: middle">구쉐린</span>
+        <nav style="text-decoration: none; color: inherit; text-align: center; background-color: white;" class="top-corner">
+            <a href="../index.html" style="text-decoration-line: none">
+                <img style="margin-top: 20px; margin-bottom: 20px; text-align: center;" src="img/logo.jpg" width="80px;" height="80px" />
+                <span style = "color: black; font-family: goorm-sans-code; font-size: 30px; vertical-align: middle; text-decoration: none">구쉐린</span>
             </a>
         </nav>
         <div class="container">
@@ -127,7 +127,7 @@
             $("#addressplace").html("🚩 " + address);
             $("#ratingplace").html(rating);
             $("#numberplace").html("📞 " + number);
-            $("#timezone").html("🕛 " + time);
+            $("#timezone").html("🕛" + "<br>&nbsp" + time);
             $("#mapzone").attr("src", map);
             $("#fmmzone").html(fmm);
             $("#smmzone").html(smm);
