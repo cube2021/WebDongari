@@ -6,83 +6,83 @@ function action(par) {
 }
 
 function sendname(par) {
-    localStorage.setItem("name", par[checker - 1]);
+    localStorage.setItem("name", par[checker]);
 }
 
 function sendfirstimg(par) {
-    localStorage.setItem("firstmainimg", par[checker - 1]);
+    localStorage.setItem("firstmainimg", par[checker]);
 }
 
 function sendsecondimg(par) {
-    localStorage.setItem("secondmainimg", par[checker - 1]);
+    localStorage.setItem("secondmainimg", par[checker]);
 }
 
 function sendthirdimg(par) {
-    localStorage.setItem("thirdmainimg", par[checker - 1]);
+    localStorage.setItem("thirdmainimg", par[checker]);
 }
 
 function sendaddress(par) {
-    localStorage.setItem("restaddress", par[checker - 1]);
+    localStorage.setItem("restaddress", par[checker]);
 }
 
 function sendrating(par) {
-    localStorage.setItem("restrating", par[checker - 1]);
+    localStorage.setItem("restrating", par[checker]);
 }
 
 function sendcallnumber(par) {
-    localStorage.setItem("number", par[checker - 1]);
+    localStorage.setItem("number", par[checker]);
 }
 
 function sendtime(par) {
-    localStorage.setItem("time", par[checker - 1]);
+    localStorage.setItem("time", par[checker]);
 }
 
 function sendmap(par) {
-    localStorage.setItem("map", par[checker - 1]);
+    localStorage.setItem("map", par[checker]);
 }
 
 function sendsubfirstimg(par) {
-    localStorage.setItem("firstsubimg", par[checker - 1]);
+    localStorage.setItem("firstsubimg", par[checker]);
 }
 
 function sendsubsecondimg(par) {
-    localStorage.setItem("secondsubimg", par[checker - 1]);
+    localStorage.setItem("secondsubimg", par[checker]);
 }
 
 function sendsubthirdimg(par) {
-    localStorage.setItem("thirdsubimg", par[checker - 1]);
+    localStorage.setItem("thirdsubimg", par[checker]);
 }
 
 function sendbaedaltime(par) {
-    localStorage.setItem("baedaltime", par[checker - 1]);
+    localStorage.setItem("baedaltime", par[checker]);
 }
 
 function sendpyeong(par) {
-    localStorage.setItem("pyeong", par[checker - 1]);
+    localStorage.setItem("pyeong", par[checker]);
 }
 
 function sendfirstmainmeun(par) {
-    localStorage.setItem("fmm", par[checker - 1]);
+    localStorage.setItem("fmm", par[checker]);
 }
 
 function sendsmm(par) {
-    localStorage.setItem("smm", par[checker - 1]);
+    localStorage.setItem("smm", par[checker]);
 }
 
 function sendtmm(par) {
-    localStorage.setItem("tmm", par[checker - 1]);
+    localStorage.setItem("tmm", par[checker]);
 }
 
 function sendfmmd(par) {
-    localStorage.setItem("fmmd", par[checker - 1]);
+    localStorage.setItem("fmmd", par[checker]);
 }
 
 function sendsmmd(par) {
-    localStorage.setItem("smmd", par[checker - 1]);
+    localStorage.setItem("smmd", par[checker]);
 }
 
 function sendtmmd(par) {
-    localStorage.setItem("tmmd", par[checker - 1]);
+    localStorage.setItem("tmmd", par[checker]);
 }
 
 function changerest(par) {
@@ -169,5 +169,5 @@ function errorpopup() {
 }
 
 function selectdisplay(par) {
-    $("#mainbanner").attr("src", "img/" + "banner" + par + ".png");
+    $("#mainbanner").attr("src", "img/" + "banner" + par + ".webp");
 }
